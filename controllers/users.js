@@ -62,7 +62,7 @@ const usersPost = async (req = request, res = response) => {
             from: process.env.EMAIL,
             to: email,
             subject: 'Probando',
-            text: 'Hola Mundo ?'
+            text: 'Jejeje pro player'
           };
           
     await transporter.sendMail(mailOptions, function(error, info){
